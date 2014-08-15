@@ -1,0 +1,200 @@
+/** ================================================ **/
+/**            The Android's Dungeon                 **/
+/**            created by Wombatlord                 **/
+/** ================================================ **/
+
+module TAD
+{
+imports
+    {
+        Base
+    }
+
+/************************GraphicNovels************************/
+    
+    item YTLM1
+    {
+		DisplayName = Y the Last Man: Vol. 1 - 3,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -60,
+		StressChange = -45,
+		UnhappyChange = -45,
+		Icon = Book,		
+	}
+	
+	item YTLM2
+    {
+		DisplayName = Y the Last Man: Vol. 4 - 6,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -60,
+		StressChange = -45,
+		UnhappyChange = -45,
+		Icon = Book,		
+	}
+	
+	item YTLM3
+    {
+		DisplayName = Y the Last Man: Vol. 7 - 10,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -60,
+		StressChange = -45,
+		UnhappyChange = -45,
+		Icon = Book,		
+	}
+	
+	item TIO
+    {
+		DisplayName	= The Invisibles Omnibus,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -75,
+		StressChange = -50,
+		UnhappyChange = -50,
+		Icon = Book,
+	}
+	
+	item BH
+    {
+		DisplayName	= Black Hole,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -55,
+		StressChange = -40,
+		UnhappyChange = -40,
+		Icon = Book,
+	}
+	
+	item THOTG
+    {
+		DisplayName	= The Hole of Tank Girl,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -60,
+		StressChange = -45,
+		UnhappyChange = -45,
+		Icon = Book,
+	}
+	
+	item TWDC1
+    {
+		DisplayName	= The Walking Dead: Compendium One,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -75,
+		StressChange = -30,
+		UnhappyChange = -45,
+		Icon = Book,
+	}
+	
+	item TWDC2
+    {
+		DisplayName	= The Walking Dead: Compendium Two,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -75,
+		StressChange = -45,
+		UnhappyChange = -30,
+		Icon = Book,
+	}
+	
+	item EM1
+    {
+		DisplayName	= Elaphantmen Vol 1: Wounded Animals,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -50,
+		StressChange = -40,
+		UnhappyChange = -50,
+		Icon = Book,
+	}
+	
+	item EM2
+    {
+		DisplayName	= Elaphantmen Vol 2: Fatal Diseases,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -50,
+		StressChange = -40,
+		UnhappyChange = -50,
+		Icon = Book,
+	}
+	
+	item EM3
+    {
+		DisplayName	= Elaphentmen Vol 3: Dangerous Liasons,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -50,
+		StressChange = -40,
+		UnhappyChange = -50,
+		Icon = Book,
+	}
+	
+	item EM4
+    {
+		DisplayName	= Elaphentmen Vol 4: Questionable Things,
+		Weight = 0.5,
+		Type = Literature,
+		BoredomChange = -50,
+		StressChange = -40,
+		UnhappyChange = -50,
+		Icon = Book,
+	}
+
+
+/************************Newspapers************************/
+
+
+	item Newspaper1
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	The Courier Journal,
+		StressChange	=	-25,
+		Icon	=	Newspaper,
+		BoredomChange	=	-20,
+	}
+	
+	item Newspaper2
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Louisville Eccentric Observer,
+		StressChange	=	-25,
+		Icon	=	Newspaper,
+		BoredomChange	=	-20,
+	}
+	
+	item Newspaper3
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Business First of Louisville,
+		StressChange	=	-15,
+		Icon	=	Newspaper,
+		BoredomChange	=	-15,
+	}
+	
+	item Newspaper4
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Kentucky Western Recorder,
+		StressChange	=	-10,
+		Icon	=	Newspaper,
+		BoredomChange	=	-10,
+	}
+	
+	item Newspaper5
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Louisville Record,
+		StressChange	=	-10,
+		Icon	=	Newspaper,
+		BoredomChange	=	-10,
+	}
+}
