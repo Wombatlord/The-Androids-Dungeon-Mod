@@ -1,0 +1,359 @@
+module TAD
+{
+	imports
+	{
+		Base
+	}
+	
+	item THGTTG1
+	{
+		DisplayName = Book "The Hitchhikers Guide to the Galaxy",
+		NumberOfPages = 220,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+	
+	item THGTTG2
+	{
+		DisplayName = Book "The Restaurant at the End of the Universe",
+		NumberOfPages = 256,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+	
+	item THGTTG3
+	{
+		DisplayName = Book "Life the Universe and Everything",
+		NumberOfPages = 240,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+
+	item THGTTG4
+	{
+		DisplayName = Book "So Long and Thanks for All the Fish",
+		NumberOfPages = 224,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+
+	item THGTTG5
+	{
+		DisplayName = Book "Mostly Harmless",
+		NumberOfPages = 240,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+
+	item THGTTG6
+	{
+		DisplayName = Book "And Another Thing...",
+		NumberOfPages = 276,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		SkillTrained = Nimble,
+		LvlSkillTrained = 0,
+		Icon = Book
+	}
+
+	item ProgrammingLua
+	{
+		DisplayName = Book "Programming in Lua Second Edition",
+		NumberOfPages = 328,
+		Weight = 0.35,
+		Type = Literature,
+		StressChange = -5,
+		BoredomChange = -10,
+		UnhappyChange = -10,
+		Icon = Book
+	}
+
+	item BraveNewWorld
+	{
+		DisplayName = Book "Brave New World",
+		NumberOfPages = 288,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -15,
+		BoredomChange = -20,
+		UnhappyChange = -20,
+		Icon = Book
+	}
+	
+	item RoadsidePicnic
+	{
+		DisplayName = Book "Roadside Picnic",
+		NumberOfPages = 224,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -15,
+		BoredomChange = -30,
+		UnhappyChange = -26,
+		Icon = Book
+	}
+	
+	item CunninghamsEncyclopediaOfMagicalHerbs
+	{
+		DisplayName = Book "Cunninghams Encyclopedia of Magical Herbs",
+		NumberOfPages = 318,
+		Weight = 0.35,
+		Type = Literature,
+		StressChange = -15,
+		BoredomChange = -10,
+		UnhappyChange = -10,
+		SkillTrained = Cooking,
+		LvlSkillTrained = 1,
+		Icon = Book
+	}
+
+	item GoneWithTheWind
+	{
+		DisplayName = Book "Gone With the Wind",
+		NumberOfPages = 1024,
+		Weight = 0.9,
+		Type = Literature,
+		StressChange = -55,
+		BoredomChange = -80,
+		UnhappyChange = -80,
+		Icon = Book
+	}
+	
+	item TheZombieSurvivalGuideCompleteProtectionFromTheLivingDead
+	{
+		DisplayName = Book "The Zombie Survival Guide: Complete Protection from the Living Dead",
+		NumberOfPages = 288,
+		Weight = 0.35,
+		Type = Literature,
+		StressChange = -25,
+		BoredomChange = -50,
+		UnhappyChange = -40,
+		SkillTrained = Cooking,
+		LvlSkillTrained = 1,
+		Icon = Book
+	}
+	item TheGreatGatsby
+	{
+		DisplayName = Book "The Great Gatsby",
+		NumberOfPages = 180,
+		Weight = 0.25,
+		Type = Literature,
+		StressChange = -25,
+		BoredomChange = -40,
+		UnhappyChange = -45,
+		Icon = Book
+	}
+	
+	item Book1984
+	{
+		DisplayName = Book "1984",
+		NumberOfPages = 328,
+		Weight = 0.55,
+		Type = Literature,
+		StressChange = -15,
+		BoredomChange = -45,
+		UnhappyChange = -15,
+		Icon = Book
+	}
+	
+	item TheCatcherInTheRye
+	{
+		DisplayName = Book "The Catcher in the Rye",
+		NumberOfPages = 288,
+		Weight = 0.45,
+		Type = Literature,
+		StressChange = -25,
+		BoredomChange = -45,
+		UnhappyChange = -35,
+		Icon = Book
+	}
+	
+	item ForWhomTheBellTolls
+	{
+		DisplayName = Book "For Whom the Bell Tolls",
+		NumberOfPages = 480,
+		Weight = 0.65,
+		Type = Literature,
+		StressChange = -20,
+		BoredomChange = -40,
+		UnhappyChange = -35,
+		Icon = Book
+	}
+	
+	item AClockworkOrange
+	{
+		DisplayName = Book "A Clockwork Orange",
+		NumberOfPages = 213,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item TheFuturologicalCongress
+	{
+		DisplayName = Book "The Futurological Congress",
+		NumberOfPages = 156,
+		Weight = 0.2,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item DoAndroidsDreamOfElectricSheep
+	{
+		DisplayName = Book "Do Androids Dream of Electric Sheep",
+		NumberOfPages = 256,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item LordOfTheFlies
+	{
+		DisplayName = Book "Lord of the Flies",
+		NumberOfPages = 192,
+		Weight = 0.2,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item TheLordOfTheRings
+	{
+		DisplayName = Book "The Lord of the Rings",
+		NumberOfPages = 1178,
+		Weight = 0.9,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item ABriefHistoryOfTime
+	{
+		DisplayName = Book "A Brief History of Time",
+		NumberOfPages = 212,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item Fahrenheit451
+	{
+		DisplayName = Book "Fahrenheit 451",
+		NumberOfPages = 249,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item SlaughterhouseFive
+	{
+		DisplayName = Book "Slaughterhouse-Five or The Childrens Crusade",
+		NumberOfPages = 288,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item TheManWhoMistookHisWifeForAHat
+	{
+		DisplayName = Book "The Man Who Mistook His Wife For A Hat",
+		NumberOfPages = 256,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item ZenAndTheArtOfMotorcycleMaintenance
+	{
+		DisplayName = Book "Zen and the Art of Motorcycle Maintenance",
+		NumberOfPages = 412,
+		Weight = 0.4,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item TwentyThousandLeaguesUnderTheSea
+	{
+		DisplayName = Book "Twenty Thousand Leagues Under the Sea",
+		NumberOfPages = 526,
+		Weight = 0.4,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+	item TheWarOfTheWorlds
+	{
+		DisplayName = Book "The War of the Worlds",
+		NumberOfPages = 250,
+		Weight = 0.3,
+		Type = Literature,
+		StressChange = -40,
+		BoredomChange = -90,
+		UnhappyChange = -70,
+		Icon = Book
+	}
+
+}
